@@ -7,7 +7,7 @@ import Colours
 
 pygame.init()
 
-Screen_Size = (800,500)
+Screen_Size = (800,600)
 FPS = 30
 
 Alarm_on = False
@@ -18,7 +18,7 @@ Alarm_time[2] = ":"
 font = pygame.font.Font("freesansbold.ttf", 70)
 font2 = pygame.font.Font("freesansbold.ttf", 20)
 
-Screen = pygame.display.set_mode(Screen_Size, pygame.RESIZABLE, 16)
+Screen = pygame.display.set_mode(Screen_Size, pygame.FULLSCREEN, 16)
 pygame.display.set_caption("My First Game")
 
 clock = pygame.time.Clock()
