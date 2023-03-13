@@ -1,0 +1,3 @@
+import sonos
+
+sonos.config()
