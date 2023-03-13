@@ -18,7 +18,7 @@ Alarm_time[2] = ":"
 font = pygame.font.Font("freesansbold.ttf", 70)
 font2 = pygame.font.Font("freesansbold.ttf", 20)
 
-Screen = pygame.display.set_mode(Screen_Size, pygame.FULLSCREEN, 16)
+Screen = pygame.display.set_mode(Screen_Size, pygame.RESIZABLE, 16)
 pygame.display.set_caption("My First Game")
 
 clock = pygame.time.Clock()
@@ -159,6 +159,6 @@ while run == True:
 
     pygame.display.flip()
     clock.tick(FPS)
-    os.system("cls")
+    os.system("clear")
 
 pygame.quit()
